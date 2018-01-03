@@ -7,6 +7,16 @@ public class Student {
 	private int age;
 	public String gender;
 	
+	
+	
+	public Student() {
+		id = "59122710101";
+		name = "นางสาวชนัญชิดา ชุมพล";
+		branch = "วิศวกรรมซอฟต์แวร์";
+		age = 20;
+		gender = "หญิง";
+	}
+
 	public String getId() {
 		return id;
 	}
